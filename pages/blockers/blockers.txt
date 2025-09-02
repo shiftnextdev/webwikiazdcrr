@@ -1,0 +1,39 @@
+
+Boost
+- boost failures/hang ups
+
+
+Operations
+1. bad wifi
+    Description: wifi is essential for Rack Recieving responsibilities but their are various
+    times it could be down. Its best to know some work-arounds to continue tasking. 
+
+    a. change wifi connection
+    b. wifi hotspot
+    c. no wifi
+2. trash full
+    a. dumpster swap request
+    b. taking to long
+3. dock door issues (power cycles)
+    a. no power to building
+    b. powered door wont open
+4. other teams packages on dock (DCO, DCEO, IDND)
+    a. po numbers for teams deliveries
+    b. 
+5. contact who? equipment/machinery
+    a. 
+    b.
+
+RR Workflow
+- vads not on time
+- racks dont perfectly fit
+- audit issues/discoveries
+
+Preparation
+- equipment storage
+- dock delivery oversaturation
+- BBU rooms locked
+
+
+Rejection
+- receive racks for non ready romps

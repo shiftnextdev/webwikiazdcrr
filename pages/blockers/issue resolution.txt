@@ -1,0 +1,15 @@
+Issues:
+- vads never on time
+- recieve racks for non ready romps
+- racks dont perfectly fit
+- equipment storage
+- trash full
+- bad wifi
+- dock door issues (power cylcles)
+- dock delivery oversaturation 
+
+What Ifs:
+- Boost failures/hang ups
+- Dock oversaturation fixes/escalations (DCO, DCEO, IDND)
+- Dock mechanical issues
+- Audit issues/discoveries
