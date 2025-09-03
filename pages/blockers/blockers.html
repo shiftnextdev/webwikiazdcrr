@@ -102,24 +102,32 @@
           <div class="topic-visual-buttons">
             <button
               onclick="
-            replaceContainerContent('box1','One')
+            replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/nw_ts.png' alt='image of computer query icon' height='170em' width='170em'/>`)
             replaceContainerContent('box2','One')  
+            "
+            >
+              network troubleshooting
+            </button>
+            <button
+              onclick="
+            replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/wifi_alt_connection.png' alt='image of ssid network connection' height='100%' width='100%'/>`)
+            replaceContainerContent('box2','Two')  
             "
             >
               alt connections
             </button>
             <button
               onclick="
-            replaceContainerContent('box1','Two')
-            replaceContainerContent('box2','Two')  
+            replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/14976_6207_M3000_generic.png' alt='image of a wifi hotspot' height='200em' width='300em'/>`)
+            replaceContainerContent('box2','Three')  
             "
             >
               wifi hotspot
             </button>
             <button
               onclick="
-            replaceContainerContent('box1','Three')
-            replaceContainerContent('box2','Three')  
+            replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/no_wifi.png' alt='image icon of no wifi' height='200em' width='200em'/>`)
+            replaceContainerContent('box2','Four')  
             "
             >
               no wifi
@@ -133,7 +141,15 @@
                 height: 200px;
                 width: 100%;
               "
-            ></div>
+            >
+              <img
+                class="image"
+                src="/pages/blockers/images/nw_ts.png"
+                alt="image image of computer query icon"
+                height="170em"
+                width="170em"
+              />
+            </div>
             <div
               id="box2"
               style="
@@ -178,7 +194,8 @@
             </li>
             <li>
               <h4>alt connections</h4>
-              <p>WPA - site network access</p>
+              <p>ssid:WPA pswd:[user network cred. are used]</p>
+              <p>ssid:AWS-Building100 pswd:Ama20n25!</p>
             </li>
             <li>
               <h4>wifi hotspot</h4>
