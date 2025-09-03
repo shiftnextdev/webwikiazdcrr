@@ -52,11 +52,17 @@ aside {
   width: 250px;
   padding: 20px 2em;
 }
-#sidebar ul li a {
-  color: var(--text-color);
-  padding: 5px 12px;
+.sidebar-link {
+  color: #cef7e7;
+  padding: 8px 12px;
   display: flex;
   text-wrap: none;
+}
+.sidebar-link.show{
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 13pt;
 }
 #sidebar ul li:first-child{
   padding: 0 0 5px 0;
@@ -64,6 +70,10 @@ aside {
 }
 .sidebar-cats {
   padding-top: 1em;
+}
+.sidebar-cats ul li h3{
+  padding: 0 0 5px 0;
+  font-size: 16pt;
 }
 .sidebar__scrollbar {
   /* top: 50.4px; */
@@ -86,9 +96,11 @@ main {
   padding: 2em;
 }
 .content-block {
-  padding-bottom: 6em;
   opacity: 0;
   transition: 600ms ease;
+}
+.content-block:not(:first-child){
+  padding-top: 7em;
 }
 .content-block.show{
   opacity: 1;
@@ -106,6 +118,11 @@ main {
   padding: 5px 1em;
   font: inherit;
   color: var(--text-color);
+  cursor: pointer;
+}
+.topic-visual .topic-visual-buttons button:hover{
+  background-color: var(--secondary-color);
+  color: white;
 }
 .topic-visual-window {
   display: flex;

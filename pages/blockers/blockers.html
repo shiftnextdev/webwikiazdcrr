@@ -19,7 +19,8 @@
           <li>
             <a
               id="c1h1-link"
-              href="#operations"
+              class="sidebar-link"
+              href="#section"
               onclick="
               location.href='#c1h1';
               moveSidebarScroll2Element(this);
@@ -30,7 +31,8 @@
           <li>
             <a
               id="c1h2-link"
-              href="#operations"
+              class="sidebar-link"
+              href="#section"
               onclick="
               location.href='#c1h2'
               // moveSidebarScroll2Element(this);
@@ -41,7 +43,8 @@
           <li>
             <a
               id="c1h3-link"
-              href="#operations"
+              class="sidebar-link"
+              href="#section"
               onclick="
               location.href='#c1h3'
               // moveSidebarScroll2Element(this);
@@ -52,7 +55,8 @@
           <li>
             <a
               id="c1h4-link"
-              href="#operations"
+              class="sidebar-link"
+              href="#section"
               onclick="
               location.href='#c1h4'
               // moveSidebarScroll2Element(this);
@@ -63,7 +67,8 @@
           <li>
             <a
               id="c1h5-link"
-              href="#operations"
+              class="sidebar-link"
+              href="#section"
               onclick="
               location.href='#c1h5'
               // moveSidebarScroll2Element(this);
@@ -74,15 +79,15 @@
         </ul>
         <ul>
           <li><h3>Preparation</h3></li>
-          <li><a href="#">missing equipment</a></li>
-          <li><a href="#">dock fully loaded</a></li>
-          <li><a href="#">bbu rooms locked</a></li>
+          <li><a href="#" class="sidebar-link">missing equipment</a></li>
+          <li><a href="#" class="sidebar-link">dock fully loaded</a></li>
+          <li><a href="#" class="sidebar-link">bbu rooms locked</a></li>
         </ul>
         <ul>
           <li><h3>RR Workflow</h3></li>
-          <li><a href="#">vads not on time</a></li>
-          <li><a href="#">positioning fails</a></li>
-          <li><a href="#">rack issues found</a></li>
+          <li><a href="#" class="sidebar-link">vads not on time</a></li>
+          <li><a href="#" class="sidebar-link">positioning fails</a></li>
+          <li><a href="#" class="sidebar-link">rack issues found</a></li>
         </ul>
       </div>
     </aside>
@@ -142,13 +147,19 @@
           </div>
         </div>
         <p class="heading-def">
-          wifi is essential for Rack Recieving responsibilities but their are
-          various times it could be down. Its best to know some work-arounds to
-          continue tasking.
+          Wifi is essential for Rack Recieving responsibilities (ex. Boost
+          Workflow) but there are various times a depended on network could be
+          malfunctioning for you. Its best to know some work-arounds to continue
+          tasking.
         </p>
-        <p class="note">
-          Note: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum,
-          sequi.
+        <p class="note" style="display: inline-block">
+          Note: a little
+          <a href="#" style="color: var(--secondary-color)"
+            >network-troubleshooting</a
+          >
+          can often fix connection issues on our main network, but be mindful of
+          the time spent. If a quick run through basic solutions does not fix
+          the problem, move to a different network
         </p>
         <div class="references">
           Applied to:
@@ -159,24 +170,32 @@
           <h3>Common Known Fixes</h3>
           <ul class="topic-list">
             <li>
+              <h4>network troubleshooting</h4>
+              <p>1. Disconnect & forget network ssid, then reconnect</p>
+              <p>2. Enable then disable airplane mode</p>
+              <p>3. Restart computer</p>
+              <p>4. Flush DNS cache then reset ip</p>
+            </li>
+            <li>
               <h4>alt connections</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam, magni!
-              </p>
+              <p>WPA - site network access</p>
             </li>
             <li>
               <h4>wifi hotspot</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorem, perferendis!
+                Your poc should have a wifi hotspot at times of network outage.
+                Ask for the Network SSID name and password to connect your
+                laptop to.
               </p>
             </li>
             <li>
               <h4>no wifi</h4>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                perferendis.
+                If there are no wifi networks or hotspot access, get with your
+                manager for a solution. The slack app on a phone comes in handy
+                when needing to alert the team about ongoing delays
+                https://slack.com/downloads/android,
+                https://slack.com/downloads/ios
               </p>
             </li>
           </ul>
@@ -185,7 +204,7 @@
 
       <div class="content-block">
         <h2 id="c1h2" class="heading" style="scroll-margin-top: 30px">
-          heading1: boost-failure #071025
+          dumpster full
         </h2>
         <a class="reflink" href="#">link</a>
         <div class="topic-visual">

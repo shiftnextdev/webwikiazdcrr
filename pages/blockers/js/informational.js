@@ -18,14 +18,15 @@ function moveSidebarScroll2Element(element){
 
 const observer = new IntersectionObserver((entries)=>{
   entries.forEach((entry)=>{
+    const linkElement = document.getElementById(entry.target.firstElementChild.id + "-link")
     if(entry.isIntersecting){
       // console.log(entry.target)
       entry.target.classList.add("show")
-      const linkElement = document.getElementById(entry.target.firstElementChild.id + "-link")
       moveSidebarScroll2Element(linkElement)
-
+      linkElement.classList.add("show")
     }else{
       entry.target.classList.remove("show")
+      linkElement.classList.remove("show")
     }
     
   })
