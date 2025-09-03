@@ -87,6 +87,11 @@ main {
 }
 .content-block {
   padding-bottom: 6em;
+  opacity: 0;
+  transition: 600ms ease;
+}
+.content-block.show{
+  opacity: 1;
 }
 .heading {
   padding-bottom: 1em;

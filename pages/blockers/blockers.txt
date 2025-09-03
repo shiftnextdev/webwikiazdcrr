@@ -3,31 +3,101 @@ Boost
 - boost failures/hang ups
 
 
-Operations
-1. bad wifi
-    Description: wifi is essential for Rack Recieving responsibilities but their are various
-    times it could be down. Its best to know some work-arounds to continue tasking. 
+[Operations]
 
-    a. change wifi connection
-    b. wifi hotspot
-    c. no wifi
+1. bad wifi
+===========
+    Description: wifi is essential for Rack Recieving responsibilities (ex. Boost Workflow) but there are various
+    times a depended on network could be malfunctioning for you. Its best to know some work-arounds to continue tasking. 
+
+    Note:   a little network-troubleshooting can often fix connection issues on our main network, but be mindful of the time
+            spent. If a quick run through basic solutions does not fix the problem, move to a differnt network
+
+    a. Network troubleshooting
+        1. Disconnect & forget network ssid, then reconnect
+        2. Enable then disable airplane mode
+        3. Restart computer
+        4. Flush DNS cache then reset ip 
+    
+    b. alt connections
+        WPA - site network access
+
+    c. wifi hotspot
+        Your poc should have a wifi hotspot at times of network outage. Ask for the Network SSID name and password
+        to connect your laptop to.
+
+    d. no wifi
+        If there are no wifi networks or hotspot access, get with your manager for a solution.
+        The slack app on a phone comes in handy when needing to alert the team about ongoing delays
+        https://slack.com/downloads/android
+        https://slack.com/downloads/ios
+
+
 2. trash full
+=============
+    Description:
+
+    Note:
+
     a. dumpster swap request
     b. taking to long
+
 3. dock door issues (power cycles)
+==================================
+    Description:
+
+    Note:
+
     a. no power to building
     b. powered door wont open
+
 4. other teams packages on dock (DCO, DCEO, IDND)
+=================================================
+    Description:
+
+    Note:
+
     a. po numbers for teams deliveries
     b. 
+
 5. contact who? equipment/machinery
+===================================
+    Description:
+
+    Note:
+
     a. 
     b.
 
-RR Workflow
-- vads not on time
-- racks dont perfectly fit
-- audit issues/discoveries
+
+[RR Workflow]
+
+1. vads not on time
+===================
+    Description:
+
+    Note:
+
+    a.
+    b.
+
+2. racks dont perfectly fit
+===========================
+    Description:
+
+    Note:
+
+    a.
+    b.
+
+3. audit issues/discoveries
+===========================
+    Description:
+
+    Note:
+
+    a.
+    b.
 
 Preparation
 - equipment storage

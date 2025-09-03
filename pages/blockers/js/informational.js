@@ -15,3 +15,20 @@ function moveSidebarScroll2Element(element){
   document.getElementById('heading-pointer').style.top = (topval.top-elMiddle)+"px";
   // console.log(topval.top-elMiddle);
 }
+
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+    if(entry.isIntersecting){
+      // console.log(entry.target)
+      entry.target.classList.add("show")
+      const linkElement = document.getElementById(entry.target.firstElementChild.id + "-link")
+      moveSidebarScroll2Element(linkElement)
+
+    }else{
+      entry.target.classList.remove("show")
+    }
+    
+  })
+}, {})
+const contentBlocks = document.querySelectorAll(".content-block")
+contentBlocks.forEach(el => observer.observe(el))
