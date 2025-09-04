@@ -20,10 +20,11 @@ Boost
         4. Flush DNS cache then reset ip 
     
     b. alt connections
-        WPA - site network access
+        SSID: WPA PSWD: not required(user network cred. are used)
+        SSID: AWS-Building100 PSWD: Ama20n25!
 
     c. wifi hotspot
-        Your poc should have a wifi hotspot at times of network outage. Ask for the Network SSID name and password
+        Your POC should have a wifi hotspot at times of network outage. Ask for the Network SSID name and password
         to connect your laptop to.
 
     d. no wifi
@@ -33,14 +34,22 @@ Boost
         https://slack.com/downloads/ios
 
 
-2. trash full
+2. dumpster full
 =============
-    Description:
+    Description: trash dumpsters at each site are rutinely changed, but often get full in-between regular swaps. 
+    Prepping generates much trash and when the dumpster is full RR cannot efficiently do their job. Also piling 
+    trash creates inconveniences to other teams and more importantly can cause safety hazards
 
-    Note:
+    Note: its useful to keep some trash bags somewhere in the dock, they are handy for storing waste package material 
+    that cannot immidiately be discarded into a dumpster
 
     a. dumpster swap request
+        a note in slack channel will alrt leads/mgmt to get with the trash vendor
+
     b. taking to long
+        if a dumpster cannot be swapped at the time its needed, palletize the trash so that it can be easily 
+        menuvored around the dock while waiting for a swap. In extreame cases where the trash build-up is impacting 
+        the room required to receive racks, neatly stack the trash outside by the railing on the walkway next to the dumpster area 
 
 3. dock door issues (power cycles)
 ==================================
