@@ -109,7 +109,7 @@ main {
   padding-bottom: 1em;
 }
 .topic-visual {
-  padding: 2em 0;
+  padding: 2em 0 1em 0;
 }
 .topic-visual .topic-visual-buttons button {
   background-color: var(--accent-color);
@@ -130,11 +130,17 @@ main {
   align-items: center;
   gap: 20px;
 }
-.topic-visual-window div {
+.topic-visual-window div:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+.topic-visual-window div:not(:first-child){
+  align-content: center;
+}
+.topic-visual-window div:not(:first-child) p{
+  padding-left: 2em;
 }
 /* #box1 {
   border: 2px dotted var(--background);
@@ -148,15 +154,18 @@ main {
   height: 200px;
   width: 100%;
 } */
-.topics {
-  padding: 3em 0 0 0;
+.references {
+  padding-bottom: 1em;
+}
+.topics{
+  padding-top: 2em;
 }
 .topic-list li {
   padding: 1em 2em;
   list-style: none;
 }
 .note {
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 1em;
   border-left: 10px solid var(--accent3-color);
   padding: 1em 1em;
