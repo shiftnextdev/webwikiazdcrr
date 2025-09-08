@@ -11,19 +11,20 @@
   margin: 0;
   padding: 0;
 }
+body{
+ width: auto;
+ height: auto;
+}
+.main-container{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 275px auto 1fr;
+  grid-template-areas:
+    "sidebar scrollbar main";
+}
 html,
 body {
   scroll-behavior: smooth;
-}
-body {
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 275px 1fr;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas:
-    "navbar navbar navbar"
-    "sidebar scrollbar main"
-    "sidebar scrollbar footer";
 }
 /* nav {
   top: 0;
@@ -35,6 +36,7 @@ body {
   z-index: 4;
 } */
 aside {
+  grid-area: sidebar;
   /* top: 50.4px; */
   top: 0px;
   position: sticky;
@@ -43,7 +45,6 @@ aside {
   align-self: start;
   font-family: Consolas, "Andale Mono", "Lucida Console",
     "Licida Sans Typewriter", "Monaco", "Courier New", monospace;
-  grid-area: sidebar;
   background-color: var(--secondary-color);
 }
 #sidebar ul {

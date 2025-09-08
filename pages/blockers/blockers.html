@@ -12,428 +12,430 @@
     ></script>
   </head>
   <body>
-    <aside id="sidebar">
-      <div class="sidebar-cats">
-        <ul>
-          <li><h3>Operations</h3></li>
-          <li>
-            <a
-              id="c1h1-link"
-              class="sidebar-link"
-              href="#section"
-              onclick="
-              location.href='#c1h1';
-              moveSidebarScroll2Element(this);
-              "
-              >bad wifi</a
-            >
-          </li>
-          <li>
-            <a
-              id="c1h2-link"
-              class="sidebar-link"
-              href="#section"
-              onclick="
-              location.href='#c1h2'
-              // moveSidebarScroll2Element(this);
-              "
-              >dumpster full</a
-            >
-          </li>
-          <li>
-            <a
-              id="c1h3-link"
-              class="sidebar-link"
-              href="#section"
-              onclick="
-              location.href='#c1h3'
-              // moveSidebarScroll2Element(this);
-              "
-              >dock door fails</a
-            >
-          </li>
-          <li>
-            <a
-              id="c1h4-link"
-              class="sidebar-link"
-              href="#section"
-              onclick="
-              location.href='#c1h4'
-              // moveSidebarScroll2Element(this);
-              "
-              >alt team packages</a
-            >
-          </li>
-          <li>
-            <a
-              id="c1h5-link"
-              class="sidebar-link"
-              href="#section"
-              onclick="
-              location.href='#c1h5'
-              // moveSidebarScroll2Element(this);
-              "
-              >machinery moves</a
-            >
-          </li>
-        </ul>
-        <ul>
-          <li><h3>Preparation</h3></li>
-          <li><a href="#" class="sidebar-link">missing equipment</a></li>
-          <li><a href="#" class="sidebar-link">dock fully loaded</a></li>
-          <li><a href="#" class="sidebar-link">bbu rooms locked</a></li>
-        </ul>
-        <ul>
-          <li><h3>RR Workflow</h3></li>
-          <li><a href="#" class="sidebar-link">vads not on time</a></li>
-          <li><a href="#" class="sidebar-link">positioning fails</a></li>
-          <li><a href="#" class="sidebar-link">rack issues found</a></li>
-        </ul>
-      </div>
-    </aside>
-    <div class="sidebar__scrollbar"></div>
-    <main>
-      <div class="content-block">
-        <h2 id="c1h1" class="heading" style="scroll-margin-top: 100px">
-          bad wifi
-        </h2>
-        <a class="reflink" href="/test.html">link</a>
-        <div class="topic-visual">
-          <div class="topic-visual-buttons">
-            <button
-              onclick="
-            replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/nw_ts.png' alt='image of computer query icon' height='150em' width='150em'/>`)
-            replaceContainerContent('box2',`
-            <p>cmd > <br><br></p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /flushdns</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /release</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /renew</p>
-            `)  
-            "
-            >
-              network troubleshooting
-            </button>
-            <button
-              onclick="
-            replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/wifi_alt_connection.png' alt='image of ssid network connection' height='100%' width='100%'/>`)
-            replaceContainerContent('box2',`
-            <p style='font-size: larger;'>&nbsp;&nbsp;✔ ssid:[]&nbsp;&nbsp;&nbsp;✔ pswd:[]</p>
-            `)  
-            "
-            >
-              alt connections
-            </button>
-            <button
-              onclick="
-            replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/14976_6207_M3000_generic.png' alt='image of a wifi hotspot' height='200em' width='300em'/>`)
-            replaceContainerContent('box2',`
-            <p style='font-size: xx-large;'>&nbsp;&nbsp;╰(*°▽°*)╯</p>
-            `)  
-            "
-            >
-              wifi hotspot
-            </button>
-            <button
-              onclick="
-            replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/no_wifi.png' alt='image icon of no wifi' height='180em' width='180em'/>`)
-            replaceContainerContent('box2',`
-            <p style='font-size: xx-large;'>&ensp;&ensp;&ensp;(┬┬﹏┬┬)</p>
-            `)  
-            "
-            >
-              no wifi
-            </button>
-          </div>
-          <div class="topic-visual-window">
-            <div
-              id="box1"
-              style="
-                border: 2px dotted var(--background);
-                height: 200px;
-                width: 100%;
-              "
-            >
-              <img
-                class="image"
-                src="/pages/blockers/images/nw_ts.png"
-                alt="image image of computer query icon"
-                height="150em"
-                width="150em"
-              />
-            </div>
-            <div
-              id="box2"
-              style="
-                background-color: var(--accent2-color);
-                border: none;
-                border-radius: 10px;
-                height: 200px;
-                width: 100%;
-              "
-            >
-              <p>cmd > <br /><br /></p>
+    <div class="main-container">
+      <aside id="sidebar">
+        <div class="sidebar-cats">
+          <ul>
+            <li><h3>Operations</h3></li>
+            <li>
+              <a
+                id="c1h1-link"
+                class="sidebar-link"
+                href="#section"
+                onclick="
+                location.href='#c1h1';
+                moveSidebarScroll2Element(this);
+                "
+                >bad wifi</a
+              >
+            </li>
+            <li>
+              <a
+                id="c1h2-link"
+                class="sidebar-link"
+                href="#section"
+                onclick="
+                location.href='#c1h2'
+                // moveSidebarScroll2Element(this);
+                "
+                >dumpster full</a
+              >
+            </li>
+            <li>
+              <a
+                id="c1h3-link"
+                class="sidebar-link"
+                href="#section"
+                onclick="
+                location.href='#c1h3'
+                // moveSidebarScroll2Element(this);
+                "
+                >dock door fails</a
+              >
+            </li>
+            <li>
+              <a
+                id="c1h4-link"
+                class="sidebar-link"
+                href="#section"
+                onclick="
+                location.href='#c1h4'
+                // moveSidebarScroll2Element(this);
+                "
+                >alt team packages</a
+              >
+            </li>
+            <li>
+              <a
+                id="c1h5-link"
+                class="sidebar-link"
+                href="#section"
+                onclick="
+                location.href='#c1h5'
+                // moveSidebarScroll2Element(this);
+                "
+                >machinery moves</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li><h3>Preparation</h3></li>
+            <li><a href="#" class="sidebar-link">missing equipment</a></li>
+            <li><a href="#" class="sidebar-link">dock fully loaded</a></li>
+            <li><a href="#" class="sidebar-link">bbu rooms locked</a></li>
+          </ul>
+          <ul>
+            <li><h3>RR Workflow</h3></li>
+            <li><a href="#" class="sidebar-link">vads not on time</a></li>
+            <li><a href="#" class="sidebar-link">positioning fails</a></li>
+            <li><a href="#" class="sidebar-link">rack issues found</a></li>
+          </ul>
+        </div>
+      </aside>
+      <div class="sidebar__scrollbar"></div>
+      <main>
+        <div class="content-block">
+          <h2 id="c1h1" class="heading" style="scroll-margin-top: 100px">
+            bad wifi
+          </h2>
+          <a class="reflink" href="/test.html">link</a>
+          <div class="topic-visual">
+            <div class="topic-visual-buttons">
+              <button
+                onclick="
+              replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/nw_ts.png' alt='image of computer query icon' height='150em' width='150em'/>`)
+              replaceContainerContent('box2',`
+              <p>cmd > <br><br></p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /flushdns</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /release</p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /renew</p>
+              `)  
+              "
+              >
+                network troubleshooting
+              </button>
+              <button
+                onclick="
+              replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/wifi_alt_connection.png' alt='image of ssid network connection' height='100%' width='100%'/>`)
+              replaceContainerContent('box2',`
+              <p style='font-size: larger;'>&nbsp;&nbsp;✔ ssid:[]&nbsp;&nbsp;&nbsp;✔ pswd:[]</p>
+              `)  
+              "
+              >
+                alt connections
+              </button>
+              <button
+                onclick="
+              replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/14976_6207_M3000_generic.png' alt='image of a wifi hotspot' height='200em' width='300em'/>`)
+              replaceContainerContent('box2',`
+              <p style='font-size: xx-large;'>&nbsp;&nbsp;╰(*°▽°*)╯</p>
+              `)  
+              "
+              >
+                wifi hotspot
+              </button>
+              <button
+                onclick="
+              replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/no_wifi.png' alt='image icon of no wifi' height='180em' width='180em'/>`)
+              replaceContainerContent('box2',`
+              <p style='font-size: xx-large;'>&ensp;&ensp;&ensp;(┬┬﹏┬┬)</p>
+              `)  
+              "
+              >
+                no wifi
+              </button>
+            </div>
+            <div class="topic-visual-window">
+              <div
+                id="box1"
+                style="
+                  border: 2px dotted var(--background);
+                  height: 200px;
+                  width: 100%;
+                "
+              >
+                <img
+                  class="image"
+                  src="/pages/blockers/images/nw_ts.png"
+                  alt="image image of computer query icon"
+                  height="150em"
+                  width="150em"
+                />
+              </div>
+              <div
+                id="box2"
+                style="
+                  background-color: var(--accent2-color);
+                  border: none;
+                  border-radius: 10px;
+                  height: 200px;
+                  width: 100%;
+                "
+              >
+                <p>cmd > <br /><br /></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /flushdns</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /release</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /renew</p>
+              </div>
             </div>
           </div>
+          <p class="heading-def">
+            Wifi is essential for Rack Recieving responsibilities (ex. Boost
+            Workflow) but there are various times a depended on network could be
+            malfunctioning for you. Its best to know some work-arounds to
+            continue tasking.
+          </p>
+          <p class="note" style="display: inline-block">
+            Note: a little
+            <a href="#" style="color: var(--secondary-color)"
+              >network-troubleshooting</a
+            >
+            can often fix connection issues on our main network, but be mindful
+            of the time spent. If a quick run through basic solutions does not
+            fix the problem, move to a different network.
+          </p>
+          <!-- <div class="references">
+            Applied to:
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+          </div> -->
+          <div class="topics">
+            <h3>Common Known Blocker Fixes</h3>
+            <ul class="topic-list">
+              <li>
+                <h4>network troubleshooting</h4>
+                <p>1. Disconnect & forget network ssid, then reconnect</p>
+                <p>2. Enable then disable airplane mode</p>
+                <p>3. Restart computer</p>
+                <p>4. Flush DNS cache then reset ip</p>
+              </li>
+              <li>
+                <h4>alt connections</h4>
+                <p>ssid:WPA pswd:[user network cred. are used]</p>
+                <p>ssid:AWS-Building100 pswd:Ama20n25!</p>
+              </li>
+              <li>
+                <h4>wifi hotspot</h4>
+                <p>
+                  Your poc should have a wifi hotspot at times of network
+                  outage. Ask for the Network SSID name and password to connect
+                  your laptop to.
+                </p>
+              </li>
+              <li>
+                <h4>no wifi</h4>
+                <p>
+                  If there are no wifi networks or hotspot access, get with your
+                  manager for a solution. The slack app on a phone comes in
+                  handy when needing to alert the team about ongoing delays.
+                  https://slack.com/downloads/android,
+                  https://slack.com/downloads/ios
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
-        <p class="heading-def">
-          Wifi is essential for Rack Recieving responsibilities (ex. Boost
-          Workflow) but there are various times a depended on network could be
-          malfunctioning for you. Its best to know some work-arounds to continue
-          tasking.
-        </p>
-        <p class="note" style="display: inline-block">
-          Note: a little
-          <a href="#" style="color: var(--secondary-color)"
-            >network-troubleshooting</a
-          >
-          can often fix connection issues on our main network, but be mindful of
-          the time spent. If a quick run through basic solutions does not fix
-          the problem, move to a different network.
-        </p>
-        <!-- <div class="references">
-          Applied to:
-          <a href="#">link1</a>
-          <a href="#">link2</a>
-        </div> -->
-        <div class="topics">
-          <h3>Common Known Blocker Fixes</h3>
-          <ul class="topic-list">
-            <li>
-              <h4>network troubleshooting</h4>
-              <p>1. Disconnect & forget network ssid, then reconnect</p>
-              <p>2. Enable then disable airplane mode</p>
-              <p>3. Restart computer</p>
-              <p>4. Flush DNS cache then reset ip</p>
-            </li>
-            <li>
-              <h4>alt connections</h4>
-              <p>ssid:WPA pswd:[user network cred. are used]</p>
-              <p>ssid:AWS-Building100 pswd:Ama20n25!</p>
-            </li>
-            <li>
-              <h4>wifi hotspot</h4>
-              <p>
-                Your poc should have a wifi hotspot at times of network outage.
-                Ask for the Network SSID name and password to connect your
-                laptop to.
-              </p>
-            </li>
-            <li>
-              <h4>no wifi</h4>
-              <p>
-                If there are no wifi networks or hotspot access, get with your
-                manager for a solution. The slack app on a phone comes in handy
-                when needing to alert the team about ongoing delays.
-                https://slack.com/downloads/android,
-                https://slack.com/downloads/ios
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="content-block">
-        <h2 id="c1h2" class="heading" style="scroll-margin-top: 30px">
-          dumpster full
-        </h2>
-        <a class="reflink" href="#">link</a>
-        <div class="topic-visual">
-          <div class="topic-visual-buttons">
-            <button
-              onclick="
-            replaceContainerContent('box3',`<img class='image' src='/pages/blockers/images/dumpster_request.png' alt='image of social media posts' height='250em' width='490em'/>`)
-            replaceContainerContent('box4',`
-              <p><q>[site] requires a dumpster swap</q></p>
-            `)  
-            "
-            >
-              swap request
-            </button>
-            <button
-              onclick="
-            replaceContainerContent('box3',`<img class='image' src='/pages/blockers/images/construction_dumpster_full.png' alt='image of full dumpster' height='175em' width='275em'/>`)
-            replaceContainerContent('box4',`<p style='font-size: xx-large;'> (╯°□°）╯︵ ┻━┻ </p>`)  
-            "
-            >
-              extended wait
-            </button>
+        <div class="content-block">
+          <h2 id="c1h2" class="heading" style="scroll-margin-top: 30px">
+            dumpster full
+          </h2>
+          <a class="reflink" href="#">link</a>
+          <div class="topic-visual">
+            <div class="topic-visual-buttons">
+              <button
+                onclick="
+              replaceContainerContent('box3',`<img class='image' src='/pages/blockers/images/dumpster_request.png' alt='image of social media posts' height='250em' width='490em'/>`)
+              replaceContainerContent('box4',`
+                <p><q>[site] requires a dumpster swap</q></p>
+              `)  
+              "
+              >
+                swap request
+              </button>
+              <button
+                onclick="
+              replaceContainerContent('box3',`<img class='image' src='/pages/blockers/images/construction_dumpster_full.png' alt='image of full dumpster' height='175em' width='275em'/>`)
+              replaceContainerContent('box4',`<p style='font-size: xx-large;'> (╯°□°）╯︵ ┻━┻ </p>`)  
+              "
+              >
+                extended wait
+              </button>
+            </div>
+            <div class="topic-visual-window">
+              <div
+                id="box3"
+                style="
+                  border: 2px dotted var(--background);
+                  height: 200px;
+                  width: 100%;
+                "
+              >
+                <img
+                  class="image"
+                  src="/pages/blockers/images/dumpster_request.png"
+                  alt="image of social media posts"
+                  height="250em"
+                  width="490em"
+                />
+              </div>
+              <div
+                id="box4"
+                style="
+                  background-color: var(--accent2-color);
+                  border: none;
+                  border-radius: 10px;
+                  height: 200px;
+                  width: 100%;
+                "
+              >
+                <p><q>[site] requires a dumpster swap</q></p>
+              </div>
+            </div>
           </div>
-          <div class="topic-visual-window">
-            <div
-              id="box3"
-              style="
-                border: 2px dotted var(--background);
-                height: 200px;
-                width: 100%;
-              "
-            >
-              <img
-                class="image"
-                src="/pages/blockers/images/dumpster_request.png"
-                alt="image of social media posts"
-                height="250em"
-                width="490em"
-              />
-            </div>
-            <div
-              id="box4"
-              style="
-                background-color: var(--accent2-color);
-                border: none;
-                border-radius: 10px;
-                height: 200px;
-                width: 100%;
-              "
-            >
-              <p><q>[site] requires a dumpster swap</q></p>
-            </div>
+          <p class="heading-def">
+            Trash dumpsters at each site are rutinely changed, but often get
+            full in-between regular swaps. Prepping generates much trash and
+            when the dumpster is full RR cannot efficiently do their job. Also
+            piling trash creates inconveniences to other teams and more
+            importantly can cause safety hazards.
+          </p>
+          <p class="note">
+            Note: its useful to keep some trash bags somewhere in the dock, they
+            are handy for storing waste package material that cannot immidiately
+            be discarded into a dumpster.
+          </p>
+          <!-- <div class="references">
+            Applied to:
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+          </div> -->
+          <div class="topics">
+            <h3>Common Known Blocker Fixes</h3>
+            <ul class="topic-list">
+              <li>
+                <h4>swap request</h4>
+                <p>
+                  a note in slack channel, "[site] requires a dumpster swap"
+                  will alrt leads/mgmt to get with the trash vendor.
+                </p>
+              </li>
+              <li>
+                <h4>extended wait</h4>
+                <p>
+                  if a dumpster cannot be swapped at the time its needed,
+                  palletize the trash so that it can be easily meneuvered around
+                  the dock while waiting for a swap. In extreame cases where the
+                  trash build-up is impacting the room required to receive
+                  racks, neatly stack the trash outside by the railing on the
+                  walkway next to the dumpster area.
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
-        <p class="heading-def">
-          Trash dumpsters at each site are rutinely changed, but often get full
-          in-between regular swaps. Prepping generates much trash and when the
-          dumpster is full RR cannot efficiently do their job. Also piling trash
-          creates inconveniences to other teams and more importantly can cause
-          safety hazards.
-        </p>
-        <p class="note">
-          Note: its useful to keep some trash bags somewhere in the dock, they
-          are handy for storing waste package material that cannot immidiately
-          be discarded into a dumpster.
-        </p>
-        <!-- <div class="references">
-          Applied to:
-          <a href="#">link1</a>
-          <a href="#">link2</a>
-        </div> -->
-        <div class="topics">
-          <h3>Common Known Blocker Fixes</h3>
-          <ul class="topic-list">
-            <li>
-              <h4>swap request</h4>
-              <p>
-                a note in slack channel, "[site] requires a dumpster swap" will
-                alrt leads/mgmt to get with the trash vendor.
-              </p>
-            </li>
-            <li>
-              <h4>extended wait</h4>
-              <p>
-                if a dumpster cannot be swapped at the time its needed,
-                palletize the trash so that it can be easily meneuvered around
-                the dock while waiting for a swap. In extreame cases where the
-                trash build-up is impacting the room required to receive racks,
-                neatly stack the trash outside by the railing on the walkway
-                next to the dumpster area.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
 
-      <!-- <div class="content-block">
-        <h2 id="cat1_heading2" class="heading" style="scroll-margin-top: 30px">
-          heading1: boost-failure #071025
-        </h2>
-        <a class="reflink" href="#">link</a>
-        <div class="topic-visual">
-          <div class="topic-visual-buttons">
-            <button
-              onclick="
-            replaceContainerContent('box3','One')
-            replaceContainerContent('box4','One')  
-            "
-            >
-              topic1
-            </button>
-            <button
-              onclick="
-            replaceContainerContent('box3','Two')
-            replaceContainerContent('box4','Two')  
-            "
-            >
-              topic2
-            </button>
-            <button
-              onclick="
-            replaceContainerContent('box3','Three')
-            replaceContainerContent('box4','Three')  
-            "
-            >
-              topic3
-            </button>
-          </div>
-          <div class="topic-visual-window">
-            <div
-              id="box3"
-              style="
-                border: 2px dotted var(--background);
-                height: 200px;
-                width: 100%;
+        <!-- <div class="content-block">
+          <h2 id="cat1_heading2" class="heading" style="scroll-margin-top: 30px">
+            heading1: boost-failure #071025
+          </h2>
+          <a class="reflink" href="#">link</a>
+          <div class="topic-visual">
+            <div class="topic-visual-buttons">
+              <button
+                onclick="
+              replaceContainerContent('box3','One')
+              replaceContainerContent('box4','One')  
               "
-            ></div>
-            <div
-              id="box4"
-              style="
-                background-color: var(--accent2-color);
-                border: none;
-                border-radius: 10px;
-                height: 200px;
-                width: 100%;
+              >
+                topic1
+              </button>
+              <button
+                onclick="
+              replaceContainerContent('box3','Two')
+              replaceContainerContent('box4','Two')  
               "
-            ></div>
+              >
+                topic2
+              </button>
+              <button
+                onclick="
+              replaceContainerContent('box3','Three')
+              replaceContainerContent('box4','Three')  
+              "
+              >
+                topic3
+              </button>
+            </div>
+            <div class="topic-visual-window">
+              <div
+                id="box3"
+                style="
+                  border: 2px dotted var(--background);
+                  height: 200px;
+                  width: 100%;
+                "
+              ></div>
+              <div
+                id="box4"
+                style="
+                  background-color: var(--accent2-color);
+                  border: none;
+                  border-radius: 10px;
+                  height: 200px;
+                  width: 100%;
+                "
+              ></div>
+            </div>
           </div>
+          <p class="heading-def">
+            Heading Description: Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Aspernatur nobis, voluptatum quasi aut consectetur
+            obcaecati repellendus aliquid rem ad eaque quidem nemo optio quo
+            maiores.
+          </p>
+          <p class="note">
+            Note: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            sequi.
+          </p>
+          <div class="references">
+            Applied to:
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+          </div>
+          <div class="topics">
+            <h3>Heading Topics</h3>
+            <ul class="topic-list">
+              <li>
+                <h4>topic1</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam, magni!
+                </p>
+              </li>
+              <li>
+                <h4>topic2</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorem, perferendis!
+                </p>
+              </li>
+              <li>
+                <h4>topic3</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                  perferendis.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+      </main>
+      <div id="sidebar-scroll">
+        <div id="heading-pointer" style="top: 48.5px">
+          <div id="circle-top" style="z-index: 2"></div>
+          <div id="circle-bottom" style="z-index: 1"></div>
         </div>
-        <p class="heading-def">
-          Heading Description: Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Aspernatur nobis, voluptatum quasi aut consectetur
-          obcaecati repellendus aliquid rem ad eaque quidem nemo optio quo
-          maiores.
-        </p>
-        <p class="note">
-          Note: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum,
-          sequi.
-        </p>
-        <div class="references">
-          Applied to:
-          <a href="#">link1</a>
-          <a href="#">link2</a>
-        </div>
-        <div class="topics">
-          <h3>Heading Topics</h3>
-          <ul class="topic-list">
-            <li>
-              <h4>topic1</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam, magni!
-              </p>
-            </li>
-            <li>
-              <h4>topic2</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolorem, perferendis!
-              </p>
-            </li>
-            <li>
-              <h4>topic3</h4>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                perferendis.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div> -->
-    </main>
-    <div id="sidebar-scroll">
-      <div id="heading-pointer" style="top: 48.5px">
-        <div id="circle-top" style="z-index: 2"></div>
-        <div id="circle-bottom" style="z-index: 1"></div>
       </div>
     </div>
   </body>

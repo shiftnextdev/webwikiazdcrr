@@ -36,7 +36,7 @@ Boost
 
 2. dumpster full
 =============
-    Description: trash dumpsters at each site are rutinely changed, but often get full in-between regular swaps. 
+    Description: Trash dumpsters at each site are rutinely changed, but often get full in-between regular swaps. 
     Prepping generates much trash and when the dumpster is full RR cannot efficiently do their job. Also piling 
     trash creates inconveniences to other teams and more importantly can cause safety hazards
 

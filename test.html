@@ -2,22 +2,20 @@
 <html>
   <head>
     <title>CSS Magic</title>
-    <style>
-      #myDiv {
-        width: 300px;
-        height: 200px;
-        background-color: lightblue;
-        transition: background-color 0.5s;
-      }
-      #section:target #myDiv {
-        background-color: lightgreen;
-      }
-    </style>
+    <link rel="stylesheet" href="/test.css" />
   </head>
   <body>
     <a href="#section">Click me for some CSS magic!</a>
     <div id="section">
       <div id="myDiv">I change with just CSS!</div>
+    </div>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
     </div>
   </body>
 </html>
