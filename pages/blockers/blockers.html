@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/pages/blockers/css/styles.css" />
-    <script
+    <!-- <script
       type="text/javascript"
       src="/pages/blockers/js/informational.js"
       defer
-    ></script>
+    ></script> -->
   </head>
   <body>
-    <div class="main-container">
+    <div
+      class="main-container"
+      onload="javascript:function replaceContainerContent(id, content) {
+        const container = document.getElementById(id);
+        container.innerHTML = content;
+      }"
+    >
       <aside id="sidebar">
         <div class="sidebar-cats">
           <ul>
@@ -103,44 +109,37 @@
             <div class="topic-visual-buttons">
               <button
                 onclick="
-              replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/nw_ts.png' alt='image of computer query icon' height='150em' width='150em'/>`)
-              replaceContainerContent('box2',`
-              <p>cmd > <br><br></p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /flushdns</p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /release</p>
-              <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /renew</p>
-              `)  
-              "
+                  document.getElementById('box1').innerHTML =`<img class='image' src='/pages/blockers/images/nw_ts.png' alt='image of computer query icon' height='150em' width='150em'/>`
+                  document.getElementById('box2').innerHTML =`
+                  <p>cmd > <br><br></p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /flushdns</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /release</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /renew</p>`  
+                "
               >
                 network troubleshooting
               </button>
               <button
                 onclick="
-              replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/wifi_alt_connection.png' alt='image of ssid network connection' height='100%' width='100%'/>`)
-              replaceContainerContent('box2',`
-              <p style='font-size: larger;'>&nbsp;&nbsp;✔ ssid:[]&nbsp;&nbsp;&nbsp;✔ pswd:[]</p>
-              `)  
-              "
+                  document.getElementById('box1').innerHTML =`<img class='image' src='/pages/blockers/images/wifi_alt_connection.png' alt='image of ssid network connection' height='100%' width='100%'/>`
+                  document.getElementById('box2').innerHTML =`<p style='font-size: larger;'>&nbsp;&nbsp;✔ ssid:[]&nbsp;&nbsp;&nbsp;✔ pswd:[]</p>`  
+                "
               >
                 alt connections
               </button>
               <button
                 onclick="
-              replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/14976_6207_M3000_generic.png' alt='image of a wifi hotspot' height='200em' width='300em'/>`)
-              replaceContainerContent('box2',`
-              <p style='font-size: xx-large;'>&nbsp;&nbsp;╰(*°▽°*)╯</p>
-              `)  
-              "
+                  document.getElementById('box1').innerHTML =`<img class='image' src='/pages/blockers/images/14976_6207_M3000_generic.png' alt='image of a wifi hotspot' height='200em' width='300em'/>`
+                  document.getElementById('box2').innerHTML =`<p style='font-size: xx-large;'>&nbsp;&nbsp;╰(*°▽°*)╯</p>`  
+                "
               >
                 wifi hotspot
               </button>
               <button
                 onclick="
-              replaceContainerContent('box1',`<img class='image' src='/pages/blockers/images/no_wifi.png' alt='image icon of no wifi' height='180em' width='180em'/>`)
-              replaceContainerContent('box2',`
-              <p style='font-size: xx-large;'>&ensp;&ensp;&ensp;(┬┬﹏┬┬)</p>
-              `)  
-              "
+                  document.getElementById('box1').innerHTML =`<img class='image' src='/pages/blockers/images/no_wifi.png' alt='image icon of no wifi' height='180em' width='180em'/>`
+                  document.getElementById('box2').innerHTML =`<p style='font-size: xx-large;'>&ensp;&ensp;&ensp;(┬┬﹏┬┬)</p>`  
+                "
               >
                 no wifi
               </button>
@@ -245,19 +244,17 @@
             <div class="topic-visual-buttons">
               <button
                 onclick="
-              replaceContainerContent('box3',`<img class='image' src='/pages/blockers/images/dumpster_request.png' alt='image of social media posts' height='250em' width='490em'/>`)
-              replaceContainerContent('box4',`
-                <p><q>[site] requires a dumpster swap</q></p>
-              `)  
-              "
+                  document.getElementById('box3').innerHTML =`<img class='image' src='/pages/blockers/images/dumpster_request.png' alt='image of social media posts' height='250em' width='490em'/>`
+                  document.getElementById('box4').innerHTML =`<p><q>[site] requires a dumpster swap</q></p>`  
+                "
               >
                 swap request
               </button>
               <button
                 onclick="
-              replaceContainerContent('box3',`<img class='image' src='/pages/blockers/images/construction_dumpster_full.png' alt='image of full dumpster' height='175em' width='275em'/>`)
-              replaceContainerContent('box4',`<p style='font-size: xx-large;'> (╯°□°）╯︵ ┻━┻ </p>`)  
-              "
+                  document.getElementById('box3').innerHTML =`<img class='image' src='/pages/blockers/images/construction_dumpster_full.png' alt='image of full dumpster' height='175em' width='275em'/>`
+                  document.getElementById('box4').innerHTML =`<p style='font-size: xx-large;'> (╯°□°）╯︵ ┻━┻ </p>`  
+                "
               >
                 extended wait
               </button>

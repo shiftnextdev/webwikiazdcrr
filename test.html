@@ -5,7 +5,12 @@
     <link rel="stylesheet" href="/test.css" />
   </head>
   <body>
-    <a href="#section">Click me for some CSS magic!</a>
+    <button onclick="location.href='#section'">button 1</button>
+    <button
+      onclick="document.getElementById('myDiv').innerHTML = '<p>hello world</p>'"
+    >
+      button 2
+    </button>
     <div id="section">
       <div id="myDiv">I change with just CSS!</div>
     </div>

@@ -3,9 +3,11 @@
     height: 200px;
     background-color: lightblue;
     transition: background-color 0.5s;
+    opacity: 0;
 }
 #section:target #myDiv {
     background-color: lightgreen;
+    opacity: 1;
 }
 .container{
     width: 1000px;

@@ -17,6 +17,7 @@ body{
 }
 .main-container{
   min-height: 100vh;
+  min-width: 100vh;
   display: grid;
   grid-template-columns: 275px auto 1fr;
   grid-template-areas:
@@ -97,7 +98,7 @@ main {
   padding: 2em;
 }
 .content-block {
-  opacity: 0;
+  opacity: 1;
   transition: 600ms ease;
 }
 .content-block:not(:first-child) {
