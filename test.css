@@ -1,25 +1,45 @@
-#myDiv {
-    width: 300px;
-    height: 200px;
-    background-color: lightblue;
-    transition: background-color 0.5s;
-    opacity: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
-#section:target #myDiv {
-    background-color: lightgreen;
-    opacity: 1;
-}
-.container{
-    width: 1000px;
-    height: 600px;
-    border: 2px solid black;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
 
+.Onclick{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
 }
-.box{
-    width: 300px;
-    height: 250px;
-    border: 3px solid purple;
-    background-color: honeydew;
+.TextOverImage{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 95px;
+    box-shadow: 0 0 16px (0, 0, 0, 0.5);
+    position: relative;
+}
+.TextOverImage *{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.TextOverImage .shadow{
+    z-index: 1;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    padding-top: 35%;
+    background-color: (0,0,0,0.5);
+    border-radius: 95px;
+    display: none;
+    transition: .3s;
+}
+.TextOverImage .shadow:target{
+    display: block;
 }

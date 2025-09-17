@@ -12,13 +12,7 @@
     ></script> -->
   </head>
   <body>
-    <div
-      class="main-container"
-      onload="javascript:function replaceContainerContent(id, content) {
-        const container = document.getElementById(id);
-        container.innerHTML = content;
-      }"
-    >
+    <div class="main-container">
       <aside id="sidebar">
         <div class="sidebar-cats">
           <ul>
@@ -30,7 +24,7 @@
                 href="#section"
                 onclick="
                 location.href='#c1h1';
-                moveSidebarScroll2Element(this);
+                //moveSidebarScroll2Element(this);
                 "
                 >bad wifi</a
               >
@@ -107,74 +101,211 @@
           <a class="reflink" href="/test.html">link</a>
           <div class="topic-visual">
             <div class="topic-visual-buttons">
-              <button
-                onclick="
-                  document.getElementById('box1').innerHTML =`<img class='image' src='/pages/blockers/images/nw_ts.png' alt='image of computer query icon' height='150em' width='150em'/>`
-                  document.getElementById('box2').innerHTML =`
-                  <p>cmd > <br><br></p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /flushdns</p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /release</p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /renew</p>`  
-                "
+              <a class="btn" href="#network_troubleshooting"
+                >network troubleshooting</a
               >
-                network troubleshooting
-              </button>
-              <button
-                onclick="
-                  document.getElementById('box1').innerHTML =`<img class='image' src='/pages/blockers/images/wifi_alt_connection.png' alt='image of ssid network connection' height='100%' width='100%'/>`
-                  document.getElementById('box2').innerHTML =`<p style='font-size: larger;'>&nbsp;&nbsp;✔ ssid:[]&nbsp;&nbsp;&nbsp;✔ pswd:[]</p>`  
-                "
-              >
-                alt connections
-              </button>
-              <button
-                onclick="
-                  document.getElementById('box1').innerHTML =`<img class='image' src='/pages/blockers/images/14976_6207_M3000_generic.png' alt='image of a wifi hotspot' height='200em' width='300em'/>`
-                  document.getElementById('box2').innerHTML =`<p style='font-size: xx-large;'>&nbsp;&nbsp;╰(*°▽°*)╯</p>`  
-                "
-              >
-                wifi hotspot
-              </button>
-              <button
-                onclick="
-                  document.getElementById('box1').innerHTML =`<img class='image' src='/pages/blockers/images/no_wifi.png' alt='image icon of no wifi' height='180em' width='180em'/>`
-                  document.getElementById('box2').innerHTML =`<p style='font-size: xx-large;'>&ensp;&ensp;&ensp;(┬┬﹏┬┬)</p>`  
-                "
-              >
-                no wifi
-              </button>
+              <a class="btn" href="#alt_connections">alt connections</a>
+              <a class="btn" href="#wifi_hotspot">wifi hotspot</a>
+              <a class="btn" href="#no_wifi">no wifi</a>
             </div>
-            <div class="topic-visual-window">
+            <div class="topic-visual-container">
               <div
-                id="box1"
-                style="
-                  border: 2px dotted var(--background);
-                  height: 200px;
-                  width: 100%;
-                "
+                class="topic-visual-window"
+                id="network_troubleshooting"
+                style="scroll-margin: 100vh"
               >
-                <img
-                  class="image"
-                  src="/pages/blockers/images/nw_ts.png"
-                  alt="image image of computer query icon"
-                  height="150em"
-                  width="150em"
-                />
+                <div
+                  class="topic-visual-box"
+                  style="
+                    border: 2px dotted var(--background);
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <img
+                      class="image"
+                      src="/pages/blockers/images/nw_ts.png"
+                      alt="image of computer query icon"
+                      height="150em"
+                      width="150em"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="topic-visual-box"
+                  style="
+                    background-color: var(--accent2-color);
+                    border: none;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <p>cmd > <br /><br /></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /flushdns</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /release</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /renew</p>
+                  </div>
+                </div>
               </div>
               <div
-                id="box2"
-                style="
-                  background-color: var(--accent2-color);
-                  border: none;
-                  border-radius: 10px;
-                  height: 200px;
-                  width: 100%;
-                "
+                class="topic-visual-window"
+                id="alt_connections"
+                style="scroll-margin: 100vh"
               >
-                <p>cmd > <br /><br /></p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /flushdns</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /release</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /renew</p>
+                <div
+                  class="topic-visual-box"
+                  style="
+                    border: 2px dotted var(--background);
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <img
+                      class="image"
+                      src="/pages/blockers/images/wifi_alt_connection.png"
+                      alt="image of ssid network connection"
+                      height="100%"
+                      width="100%"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="topic-visual-box"
+                  style="
+                    background-color: var(--accent2-color);
+                    border: none;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <p style="font-size: larger">
+                      &nbsp;&nbsp;✔ ssid:[]&nbsp;&nbsp;&nbsp;✔ pswd:[]
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="topic-visual-window"
+                id="wifi_hotspot"
+                style="scroll-margin: 100vh"
+              >
+                <div
+                  class="topic-visual-box"
+                  style="
+                    border: 2px dotted var(--background);
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <img
+                      class="image"
+                      src="/pages/blockers/images/14976_6207_M3000_generic.png"
+                      alt="image of a wifi hotspot"
+                      height="200em"
+                      width="300em"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="topic-visual-box"
+                  style="
+                    background-color: var(--accent2-color);
+                    border: none;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <p style="font-size: xx-large">&nbsp;&nbsp;╰(*°▽°*)╯</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="topic-visual-window"
+                id="no_wifi"
+                style="scroll-margin: 100vh"
+              >
+                <div
+                  class="topic-visual-box"
+                  style="
+                    border: 2px dotted var(--background);
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <img
+                      class="image"
+                      src="/pages/blockers/images/no_wifi.png"
+                      alt="image icon of no wifi"
+                      height="180em"
+                      width="180em"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="topic-visual-box"
+                  style="
+                    background-color: var(--accent2-color);
+                    border: none;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <p style="font-size: xx-large">
+                      &ensp;&ensp;&ensp;(┬┬﹏┬┬)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="topic-visual-window" style="scroll-margin: 100vh">
+                <div
+                  id="default"
+                  class="topic-visual-box"
+                  style="
+                    border: 2px dotted var(--background);
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <img
+                      class="image"
+                      src="/pages/blockers/images/nw_ts.png"
+                      alt="image of computer query icon"
+                      height="150em"
+                      width="150em"
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="topic-visual-box"
+                  style="
+                    background-color: var(--accent2-color);
+                    border: none;
+                    border-radius: 10px;
+                    height: 200px;
+                    width: 100%;
+                  "
+                >
+                  <div class="topic-visual-img">
+                    <p>cmd > <br /><br /></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /flushdns</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /release</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;> ipconfig /renew</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -242,42 +373,30 @@
           <a class="reflink" href="#">link</a>
           <div class="topic-visual">
             <div class="topic-visual-buttons">
-              <button
-                onclick="
-                  document.getElementById('box3').innerHTML =`<img class='image' src='/pages/blockers/images/dumpster_request.png' alt='image of social media posts' height='250em' width='490em'/>`
-                  document.getElementById('box4').innerHTML =`<p><q>[site] requires a dumpster swap</q></p>`  
-                "
-              >
-                swap request
-              </button>
-              <button
-                onclick="
-                  document.getElementById('box3').innerHTML =`<img class='image' src='/pages/blockers/images/construction_dumpster_full.png' alt='image of full dumpster' height='175em' width='275em'/>`
-                  document.getElementById('box4').innerHTML =`<p style='font-size: xx-large;'> (╯°□°）╯︵ ┻━┻ </p>`  
-                "
-              >
-                extended wait
-              </button>
+              <a class="btn" href="#swap_request">swap request</a>
+              <a class="btn" href="#extended_wait">extended wait</a>
             </div>
-            <div class="topic-visual-window">
+            <div class="topic-visual-window" id="swap_request">
               <div
-                id="box3"
+                class="topic-visual-box"
                 style="
                   border: 2px dotted var(--background);
                   height: 200px;
                   width: 100%;
                 "
               >
-                <img
-                  class="image"
-                  src="/pages/blockers/images/dumpster_request.png"
-                  alt="image of social media posts"
-                  height="250em"
-                  width="490em"
-                />
+                <div class="topic-visual-img">
+                  <img
+                    class="image"
+                    src="/pages/blockers/images/dumpster_request.png"
+                    alt="image of social media posts"
+                    height="250em"
+                    width="490em"
+                  />
+                </div>
               </div>
               <div
-                id="box4"
+                class="topic-visual-box"
                 style="
                   background-color: var(--accent2-color);
                   border: none;
@@ -286,7 +405,79 @@
                   width: 100%;
                 "
               >
-                <p><q>[site] requires a dumpster swap</q></p>
+                <div class="topic-visual-img">
+                  <p><q>[site] requires a dumpster swap</q></p>
+                </div>
+              </div>
+            </div>
+            <div class="topic-visual-window" id="extended_wait">
+              <div
+                class="topic-visual-box"
+                style="
+                  border: 2px dotted var(--background);
+                  height: 200px;
+                  width: 100%;
+                "
+              >
+                <div class="topic-visual-img">
+                  <img
+                    class="image"
+                    src="/pages/blockers/images/construction_dumpster_full.png"
+                    alt="image of full dumpster"
+                    height="175em"
+                    width="275em"
+                  />
+                </div>
+              </div>
+              <div
+                class="topic-visual-box"
+                style="
+                  background-color: var(--accent2-color);
+                  border: none;
+                  border-radius: 10px;
+                  height: 200px;
+                  width: 100%;
+                "
+              >
+                <div class="topic-visual-img">
+                  <p style="font-size: xx-large">(╯°□°）╯︵ ┻━┻</p>
+                </div>
+              </div>
+            </div>
+            <div class="topic-visual-window">
+              <div
+                id="default"
+                class="topic-visual-box"
+                style="
+                  border: 2px dotted var(--background);
+                  height: 200px;
+                  width: 100%;
+                "
+              >
+                <div class="topic-visual-img">
+                  <img
+                    class="image"
+                    src="/pages/blockers/images/dumpster_request.png"
+                    alt="image of social media posts"
+                    height="250em"
+                    width="490em"
+                  />
+                </div>
+              </div>
+
+              <div
+                class="topic-visual-box"
+                style="
+                  background-color: var(--accent2-color);
+                  border: none;
+                  border-radius: 10px;
+                  height: 200px;
+                  width: 100%;
+                "
+              >
+                <div class="topic-visual-img">
+                  <p><q>[site] requires a dumpster swap</q></p>
+                </div>
               </div>
             </div>
           </div>

@@ -113,37 +113,53 @@ main {
 .topic-visual {
   padding: 2em 0 1em 0;
 }
-.topic-visual .topic-visual-buttons button {
+.topic-visual .topic-visual-buttons .btn {
   background-color: var(--accent-color);
   border: none;
   border-radius: 2px;
+  text-decoration: none;
   padding: 5px 1em;
   font: inherit;
   color: var(--text-color);
   cursor: pointer;
 }
-.topic-visual .topic-visual-buttons button:hover {
+.topic-visual .topic-visual-buttons .btn:hover {
   background-color: var(--secondary-color);
   color: white;
 }
+.topic-visual-container{
+  position: relative;
+  height: 200px + 2em;
+}
 .topic-visual-window {
-  display: flex;
+  display: none;
   padding: 1em 0 0 0;
   align-items: center;
   gap: 20px;
+  &:has(#default){
+    display: flex;
+  }
 }
-.topic-visual-window div:first-child {
+.topic-visual-window:target{
+  display: flex;
+  & ~:has(#default) {
+    display: none;
+  }
+}
+.topic-visual-window .topic-visual-box:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
-.topic-visual-window div:not(:first-child){
+.topic-visual-window .topic-visual-box:not(:first-child){
   align-content: center;
+  justify-content: center;
 }
-.topic-visual-window div:not(:first-child) p{
+.topic-visual-window .topic-visual-box:not(:first-child) p{
   padding-left: 2em;
 }
+
 /* #box1 {
   border: 2px dotted var(--background);
   height: 200px;
