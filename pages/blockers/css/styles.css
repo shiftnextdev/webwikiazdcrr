@@ -11,17 +11,17 @@
   margin: 0;
   padding: 0;
 }
-body{
- width: auto;
- height: auto;
+body {
+  width: auto;
+  height: auto;
 }
-.main-container{
+.main-container {
   min-height: 100vh;
   min-width: 100vh;
+  margin: -50px -30px 0 -30px;
   display: grid;
   grid-template-columns: 275px auto 1fr;
-  grid-template-areas:
-    "sidebar scrollbar main";
+  grid-template-areas: "sidebar scrollbar main";
 }
 html,
 body {
@@ -53,6 +53,7 @@ aside {
   box-sizing: border-box;
   width: 250px;
   padding: 20px 2em;
+  margin: 0;
 }
 .sidebar-link {
   color: #cef7e7;
@@ -60,11 +61,12 @@ aside {
   display: flex;
   text-wrap: none;
 }
-.sidebar-link.show {
+.sidebar-link:hover {
   color: var(--text-color);
   text-decoration: none;
   font-weight: 900;
-  font-size: 13pt;
+  font-size: 12pt;
+  text-wrap: none;
 }
 #sidebar ul li:first-child {
   padding: 0 0 5px 0;
@@ -74,6 +76,7 @@ aside {
   padding-top: 1em;
 }
 .sidebar-cats ul li h3 {
+  margin: 0;
   padding: 0 0 5px 0;
   font-size: 16pt;
 }
@@ -127,7 +130,7 @@ main {
   background-color: var(--secondary-color);
   color: white;
 }
-.topic-visual-container{
+.topic-visual-container {
   position: relative;
   height: 200px + 2em;
 }
@@ -136,13 +139,13 @@ main {
   padding: 1em 0 0 0;
   align-items: center;
   gap: 20px;
-  &:has(#default){
+  &:has(#default) {
     display: flex;
   }
 }
-.topic-visual-window:target{
+.topic-visual-window:target {
   display: flex;
-  & ~:has(#default) {
+  & ~ :has(#default) {
     display: none;
   }
 }
@@ -152,11 +155,11 @@ main {
   align-items: center;
   overflow: hidden;
 }
-.topic-visual-window .topic-visual-box:not(:first-child){
+.topic-visual-window .topic-visual-box:not(:first-child) {
   align-content: center;
   justify-content: center;
 }
-.topic-visual-window .topic-visual-box:not(:first-child) p{
+.topic-visual-window .topic-visual-box:not(:first-child) p {
   padding-left: 2em;
 }
 
@@ -175,7 +178,7 @@ main {
 .references {
   padding-bottom: 1em;
 }
-.topics{
+.topics {
   padding-top: 2em;
 }
 .topic-list li {
