@@ -15,21 +15,18 @@
   font-family: Poppins, sans-serif;
   color: white;
   margin: 2rem;
+  padding-top: 4rem;
   & h1{
-    padding: 3rem 0 0 0;
     text-decoration: underline;
     text-decoration-color:aquamarine;
+    padding-bottom: 2.5rem;
   }
   & .window{
-    padding: 1rem 0 ;
-  }
-  & p{
-    padding-top: 2rem;
+    padding: 1.5rem 0 ;
   }
 }
 .center{
     margin: auto;
     width: 85%;
     /* border: 3px solid green; */
-    padding: 10px;
 }
