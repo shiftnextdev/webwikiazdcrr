@@ -1,0 +1,74 @@
+Humain & AWS
+- https://gulfnews.com/business/markets/saudi-arabias-new-ai-zone-set-to-create-tech-jobs-new-investments-1.500126459
+- Amazon entity will train 100,000 citizens in cloud computing and GenAI. This will focus on two new AWS GenAI certifications - AWS AI Practitioner and AWS Machine Learning Engineer Associate Certifications.
+- The AI hub will be headquartered in Riyadh and will serve as a collaborative platform for international tech firms, https://www.ksa.com/general/saudi-arabia-launches-national-ai-hub-drive-innovation/
+- Key objectives include advancing fundamental AI research, commercializing solutions for sectors like healthcare and energy, and creating high-skilled employment opportunities for Saudi nationals.
+- AWS to Launch an Infrastructure Region in the Kingdom of Saudi Arabia (https://press.aboutamazon.com/2024/3/aws-to-launch-an-infrastructure-region-in-the-kingdom-of-saudi-arabia)
+- Amazon Web Services (AWS) announces expansion in the Kingdom of Saudi Arabia by launching a new Amazon CloudFront edge location in Jeddah. The new AWS edge location brings the full suite of benefits provided by Amazon CloudFront, a secure, highly distributed, and scalable content delivery network (CDN) that delivers static and dynamic content, APIs, and live and on-demand video with low latency and high performance. (https://aws.amazon.com/about-aws/whats-new/2025/01/new-edge-location-kingdom-saudi-arabia/)
+
+
+
+What do AWS machine learning systems look like in real life customer scenarios
+AWS has helped more than 330,000 startups globally bring their business ideas to life.
+
+AI examples
+- Health: Guidance for Identifying Diagnosis Codes from Clinical Notes on AWS (https://aws.amazon.com/solutions/guidance/identifying-diagnosis-codes-from-clinical-notes-on-aws/)
+- Business: Start up acceleration for new companies (products and services), build on day 1 not week 6, infrastructure as code IaC (https://aws.amazon.com/what-is/iac/)
+- Efficiencies: Autonomous agents, moving beyond conversational interfaces to systems that leverage AI to reason, plan, and complete tasks in tandem with – or on behalf of humans – like compiling research, paying bills, planning a trip or managing enterprise applications. (https://aws.amazon.com/blogs/aws-insights/the-rise-of-autonomous-agents-what-enterprise-leaders-need-to-know-about-the-next-wave-of-ai/?refid=cr_card)
+- Robotics: physical Ai: robotics, physical systems    (https://aws.amazon.com/blogs/machine-learning/transforming-the-physical-world-with-ai-the-next-frontier-in-intelligent-automation/)
+
+
+AI zone in saudi arabia: 
+
+Matt Garman, CEO, Amazon Web Services. “Together, we will empower customers with cost-effective and secure cloud technologies, fuel innovation and economic growth across the nation, and enable HUMAIN to appeal to customers globally.”
+
+Amazon Academy (https://www.zawya.com/en/press-release/companies-news/amazon-academy-launches-in-saudi-arabia-in-collaboration-with-mcit-do9kz30u)
+part of its long-term commitment to fast-track cloud adoption in Saudi Arabia, AWS is scaling its training and certification programs focused on genAI skills-building in line with the Kingdom’s Vision 2030 digital transformation goals. Working with Saudi Arabia’s Public Investment Fund (PIF), AWS has committed to train 100,000 citizens from the Kingdom in cloud computing and genAI, focusing on the two newest AWS genAI certifications: AWS AI Practitioner and AWS Machine Learning Engineer Associate Certifications. 
+The Academy will offer 100 internship opportunities in addition to skills development
+
+
+
+
+AI in Practice: Explore how machine learning transforms real-world customer scenarios across diverse industries, driving innovation and efficiency
+
+Medical Code Insight
+- Machine Learning systems accurately identify diagnosis codes from complex clinical notes, streamlining healthcare administration
+https://aws.amazon.com/solutions/guidance/identifying-diagnosis-codes-from-clinical-notes-on-aws/)
+
+Startup Accelerator
+- AI empowers new companies with data-driven insights for accelerated growth and strategic decision-making
+https://aws.amazon.com/what-is/iac/)
+
+Understanding Autonomous Agents
+- Itelligent agents automate tasks, completing complex workflows efficiently and with minimal human intervention
+https://aws.amazon.com/blogs/aws-insights/the-rise-of-autonomous-agents-what-enterprise-leaders-need-to-know-about-the-next-wave-of-ai/?refid=cr_card)
+
+Physical AI Robotics
+- Machine leaning enables robots to perceive, interact, and perform tasks in the physical world with greater dexterity
+https://aws.amazon.com/blogs/machine-learning/transforming-the-physical-world-with-ai-the-next-frontier-in-intelligent-automation/)
+
+
+
+AWS Global impact AI zone in saudi arabia:
+
+Riyadh CloudFront Hub
+- Amazon CloudFront edge location launched in Jeddah & Riyadh to enhance content delivery speed
+https://aws.amazon.com/about-aws/whats-new/2025/01/new-edge-location-kingdom-saudi-arabia/
+https://press.aboutamazon.com/2024/3/aws-to-launch-an-infrastructure-region-in-the-kingdom-of-saudi-arabia
+https://www.ksa.com/general/saudi-arabia-launches-national-ai-hub-drive-innovation/
+
+Citizen Cloud Training
+- Initiative to train 100,000 Saudi citizens in cloud computing and GenAI technologies
+https://www.zawya.com/en/press-release/companies-news/amazon-academy-launches-in-saudi-arabia-in-collaboration-with-mcit-do9kz30u
+https://gulfnews.com/business/markets/saudi-arabias-new-ai-zone-set-to-create-tech-jobs-new-investments-1.500126459
+https://aws.amazon.com/training/awsacademy/
+ 
+New GenAI Certifications
+- Introduction of AWS AI practitioner and AWS Machine Learning Engineer certification
+https://www.aboutamazon.com/impact/empowerment/training-for-the-public
+https://aws.amazon.com/certification/certified-ai-practitioner/
+https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/
+https://docs.aws.amazon.com/aws-certification/latest/examguides/machine-learning-engineer-associate-01.html
+
+
+https://piktochart.com/ai-newsletter-generator/
