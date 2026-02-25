@@ -1,0 +1,24 @@
+Requirements: SOP must include 
+- contact procedures
+- escalation paths
+- facility routing
+- required documentation
+
+
+Incident
+
+Diagnosis of severity(within 5min)
+
+delegate Escalation to management for awareness
+
+Action Depending on severity 
+{
+1
+2
+3
+}
+
+Fill out a form: lead on sight
+
+Enter into AUSTIN
+

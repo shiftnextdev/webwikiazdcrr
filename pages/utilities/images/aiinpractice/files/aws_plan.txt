@@ -1,0 +1,63 @@
+
+[Quality Standards & Productivity]
+
+2/25/26 - 3/25/26: Walkthroughs SBN103 104 105 106 - Every work shift
+- submit between 345 - 530pm
+- submit by end of shift through team workflow
+- 100% on time 95% quality 90% first time success rate
+
+2/25/26 - 3/25/26: Midshift Updates
+- every working shift by 12pm
+- completed tasks, blockers, next day priorities
+
+
+[Daily Communications & Training Delivery]
+
+3/4/26: TOR Assessment Review
+- Develop TOR patching assessment for manager approval 
+
+3/11/26: Deliver TOR Assessment training
+- deliver training to minimum of 25 builders
+- complete TOR patching training 
+- 25+ builders trained with documented completion
+
+
+[Safety Protocol Development]
+
+3/18/26: RR Injury Reporting SOP 
+- Create standardized internal safety SOP for rack receiving injury incidents
+- SOP must include contact procedures, escalation paths, facility routing, and required documentation
+- approved by safety team and manager, published to team
+
+
+[Technical Documentation]
+
+3/4/26: Wiki Updates Plan
+- create detailed plan outlining what needs to be updated on the wiki, submit plan to your manager for review by the end of the day
+
+3/11/26: Wiki Updates Feedback
+- create draft of wiki updates and send to your manager for feedback and approval 
+
+3/18/26: Wiki Updates Final
+- finalize revisions based on feedback from peers and managers. Send final version to your manager
+
+3/21/26: Wiki Updates Deploy
+- Review and update technical SOPs for rack receiving operations on Amazon Wiki Section 1.6 (Organizing the docks to receive racks)
+- Ensure all SOPs meet current standards and compliance requirements
+
+
+Todo:
+2/25/26
+- Email safety team about RR Injury Incidents
+- 11am: Update Email 						(ongoing)
+	Completed Tasks:
+		- Tor patching assessment draft
+		- Internal Safety incident draft
+		- Set up meeting with safety team
+		- Clarify wiki update needs
+	Blockers:
+		- no blockers
+	Next Day Priorities
+		- Meeting with Safety team 
+		
+- 04pm: Slack Walkthrough update SBN103-106	(ongoing)

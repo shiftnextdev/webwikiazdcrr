@@ -1,0 +1,61 @@
+Come in 
+- check slack for physical placement	(stupid & biased use of control)
+- read email for inbound manifest		(waste of time effort )
+
+Duties: 
+- Prep
+	i.		prep bbus
+	ii.		prep whips
+	iii.	count recording
+	
+- Workflow 
+	i.		injest racks to boost workflow
+	ii.		drop feet
+	iii.	tor patching
+	
+- Audit
+	i.		walkthroughs 
+	ii.		verify feet drop/power tickets/tor patching
+	iii.	poc chat special projects
+
+- everyone updates the quip
+
+On the Audit:
+- walkthrough
+- 
+
+Issues:
+- vads never on time
+- recieve racks for non ready romps
+- racks dont perfectly fit
+- equipment storage
+- trash full
+- bad wifi
+- dock door issues (power cylcles)
+- dock delivery oversaturation 
+
+What Ifs:
+- Rack rejection reasons
+- Boost failures/hang ups
+- Dock oversaturation fixes/escalations (DCO, DCEO, IDND)
+- Dock mechanical issues
+- Audit issues/discoveries
+
+Why Quip is Used:
+- check list verifying important action items are complete
+	i.		Feet dropped
+	ii.		tor patched
+	iii.	power ticket created
+	
+- record keeping for rack injestion
+	i.		delivery timestamp
+	ii.		quantities and validation
+	iii.	rejection history
+	
+- work requests
+	i.		rack moves
+	ii.		non standard issues
+	
+	Quip
+	Quill
+	

@@ -1,0 +1,84 @@
+Rack Receiving Structure of Operation - (this can be packaged and utilyzed at other sites)
+
+
+[Growth	from AUTONOMY]:  Here-There-Ladder perspective
+
+I.		Quarterly Review
+		1.	Metrics to show progress
+			- Quantity of issues
+			- RR performance(racks and completion timeframes) vs previous 
+			- Rejected racks
+			- Technician feedback
+			- Vads feedback
+			
+		2.	Role Testing Timeframes
+			- When to test to next technician responsibility level mastery
+		
+II.		Invest in Support
+		1.	Level Related Suggestions
+			- As techs practice responsibilities they gain efficiencies 
+			- Form to submit suggestions for current Level responsibility improvements  
+	
+III.	Floor Operations Progression System 
+		1.	L1 Prep: 
+			- Prep standards - always at least 15 rack-ready-rule
+			- Focus on relatability of hardware and incomeing racks(quick numbers)
+			- Ingesting equipment
+			- Organization of unboxing supplies
+			- Supply upkeep
+			- Organization of dock RR readiness
+			- Dock floor tidyness 
+			- L1 test to L2
+	
+		2.	L2 Rack Assemble RTF:
+			- L1 float
+			- Throwing whips & Scanning into Boost
+			- Visual rack inspection
+			- Tor Patching
+			- Safety of handling equipment
+			- Training L1 - training guides to success because they are responsible for it
+			- L2 test to L3
+
+		3.	L3 Issues Handling
+			- L2 float
+			- Sites print own labels, get own manifest, responsible for operation standards
+			- Ticket handling/creation 
+			- Escalation
+			- Training L2 - training guides to success because they are responsible for it
+			- Learn to Serve - swap to assisting other site needs (tools, supplies, water)
+			- RR Standards Mastery Test
+	
+		4.	Mastery of L1-L3 priorities
+			- Special projects 
+			- Growth oportunities
+
+ 
+[Reliability from TRANSPARENCY]: Duty Detial are in Scope
+
+I.		Access to Information within Scope of Responsibility
+		- techs should be comfortable with getting the items/details they need for their role without escalation 
+
+II.		Training How to Gather Information within Scope of Responsibility
+		- techs should be given full disclosure of how to get the items/details they need for their role without escalation
+
+
+[Confidence	from STANDARDS]: Documentaioanlly Backed Canfidence to Act 
+
+I.		Issue Resolution External: team is confident to act externally when backed by documentation
+		1.	Cooperation with other teams - (is rarely smooth due to control of juristiction of duties directly reflecting each teams performance)
+			- Standards on interaction with other team responsibilities bleeding into RR's
+			- How to escalate details
+			
+II.		Issue Resolution Internal: team is confident to act internally when backed by documentation
+		1.	Dissagreements on how a task should be performed 
+			- Standards for daily tasks in each role
+			- How to escalate details
+
+
+[UNLIKELY REQUESTS]: to accomplish standard "control group" performance monitoring:
+
+I.		Capacity Quantity Restraints
+		- As many racks as 2 trucks can hold per site
+		
+II.		Capacity Quality Restraints
+		- AWS only sends racks that can be excepted
